@@ -4,17 +4,19 @@
 
 .wrapper {
 	margin: auto; 
-	width: 80%;
-	border: dashed 1px red; 
+	width: 80%; 
 } 
 
 .header {
+	padding: 40px 0;
 	display: flex; 
 	justify-content: space-between; 
 } 
 
 .logo {
-	padding: 40px 0;	
+	width: 190px;
+	height: 35px;
+	background: url('img/logo.svg');
 } 
 
 .menu {
@@ -23,10 +25,10 @@
 } 	
 
 .menu__item {
-	padding: 0 13px;
-	border: dashed 1px red; 
+	padding: 0 13px; 
 } 
 
 .menu__item:last-child {
 	padding-right: 0;
 } 
+
