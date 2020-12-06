@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
     <title>Мой первый сайт</title>
     <link href="style.css" rel="stylesheet"> 
     <link rel="stylesheet" href="fonts.css">
@@ -14,17 +15,26 @@
             <!--div class="logo">app.creation</div-->
             <div class="logo"></div>
                 <nav class="menu">
-                    <a class="menu__item" href="#">start</a>
-                    <a class="menu__item menu__item_active" href="#">services</a>
-                    <a class="menu__item" href="#">about</a>
-                    <a class="menu__item" href="#">blog</a>
-                    <a class="menu__item" href="#">contact us</a>
+                    <a class="menu__item" href="#"class="nav__link">start</a>
+                    <a class="menu__item menu__item_active" href="#"class="nav__link">services</a>
+                    <a class="menu__item" href="#"class="nav__link">about</a>
+                    <a class="menu__item" href="#"class="nav__link">blog</a>
+                    <a class="menu__item" href="#"class="nav__link">contact us</a>
                 </nav>
+                <div id="menu-togle" class="menu-icon">
+            <div class="menu-icon-line"></div>
+            </div>
+            <!-- Мобильная навигация -->
+                    <div id="mobile-nav" class="mobile-nav">
+                        <div class="mobile-nav__title"></div>
+                        <ul class="mobile-nav__list">
+                    </ul>
+                </div>
         </header>
         <section class="main">
             <!--main class="main-content"-->
                 <h1 class="main__title"> Building an App <span class="main__title-text_highlight"> Without Design Expertise?</span> </h1>
-                <p class="main__subtitle">I help tech startups design better digital products withouthiring a full-time designer</p>
+                <p class="main__subtitle">I help tech startups design better digital products withouthiring a&nbsp; full-time designer</p>
                 <a class="main__button" href="#">Schedule free consultation</a>
             <!--/main-->
             <!--div class="image-content"-->
