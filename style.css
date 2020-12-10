@@ -163,8 +163,13 @@
         justify-content: center;
         align-items: center;
     }
-}
 
+.logo {
+	opacity: 0,5;
+	width: 14%; 
+} 
+
+ }
 .menu-icon-line {
 	position: relative;
 	width: 30px;
