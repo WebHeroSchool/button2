@@ -14,10 +14,12 @@
 } 
 
 .logo {
-	width: 190px;
+	width: 140px;
 	height: 35px;
+	padding-left: 50px;
 	background: url('img/logo.svg');
 } 
+
 
 .menu {
 	display: flex;
@@ -37,7 +39,7 @@
 	margin-right: 0;
 } 
 
-.menu__item_active::after {
+.menu__item_active:after {
 	position: absolute;
 	display: block;
 	content: '';
@@ -48,7 +50,7 @@
 }
 
 .menu__item:hover {
-	opacity: 0.5s;
+	opacity: .5s;
 }
 
 .menu__item:hover:after {
@@ -93,6 +95,7 @@
 .main__subtitle {
 	margin: 0 0 41px 0;
 	font: 18px/21px Roboto, arial, helvetica, sans-serif;
+	margin-top:20px: 
 }
 
 
@@ -123,6 +126,9 @@
 
 .header {
 	margin-bottom: 28px;
+	padding: 18px 0;	 
+	display: flex;
+	justify-content: space-between;
 }
 
 .main {
@@ -138,8 +144,8 @@
 }
 
 .main__subtitle {
-	margin-bottom: 25px;
-	font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+	margin-bottom: 13px;
+	font: 950 16px/19px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
@@ -153,7 +159,7 @@
     position: relative;
     display: none;
 	width: 30px;
-    height: 30px;
+    height: 26px;
     cursor: pointer;
 }
 /* Условие для экранов с шириной от 0 до 1200px */
@@ -165,11 +171,20 @@
     }
 
 .logo {
-	opacity: 0,5;
-	width: 14%; 
-} 
+	width: 14%;
+	/*opacity: 0;  
+	/*height: 35px;
+	padding-left: 50px;*/
+	/*background: url('img/Group.svg');*/
 
  }
+
+ .logo {
+	opacity:.5;
+	background: url('img/Group.svg') no-repeat;
+	/*background:no-repeat*/
+}
+
 .menu-icon-line {
 	position: relative;
 	width: 30px;
@@ -226,7 +241,7 @@
     top: 0;
     height: 100%;
     width: 350px;
-    padding: 50px;
+    padding: 0px;
     background-color: white;
     transition: transform 0.4s ease-in;
 }
