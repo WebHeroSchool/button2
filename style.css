@@ -144,6 +144,7 @@
 
 .main__title-text_highlight {
     background: #ECF3FF;
+    font-family: "PT Serif", Arial, Helvetica, Sans-serif;
 }
 
 
@@ -152,9 +153,9 @@
 
 .wrapper {
     margin: auto;
-    margin-left: 148px;
-    width: 61%;
-    margin-block: 28px;
+    margin-left: 161px;
+    width: 70%;
+    margin-block: 32px;
     margin-right: 0px;
 }
 
@@ -165,8 +166,8 @@
     padding: 51px 0;
     /*width: 140px;
     height: 35px;*/
-    padding-left: 37px;
-    font: bold 19px/31px pt_serif, arial, helvetica, sans-serif;
+    padding-left: 38px;
+    font: bold 21px/31px pt_serif, arial, helvetica, sans-serif;
 } 
 
 .logo__circle {
@@ -194,13 +195,13 @@
 .menu {
     display: flex;
     /* align-items: flex-end; */
-    margin-top: -30px;
-    margin-left: 766px;
-    margin-bottom: 139px;
+    margin-top: -31px;
+    margin-left: 768px;
+    margin-bottom: 137px;
 }
 .menu__item {
     position: relative;
-    margin-right: 20px;
+    margin-right: 25px;
     font: 500 15px/19px Roboto, arial, helvetica, sans-serif;
     color: #000;
     white-space: pre;
@@ -210,33 +211,36 @@
     padding: 123px 0px 0px 0;
     margin: 2px -86px 0px 0px;
     background: top right no-repeat url(img/mainImg.svg);
-    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
-    background-size: 628px 510px;
-    background-position: 600px -30px; 
+    font: 500 16px/19px "PT Serif", Arial, Helvetica, Sans-serif;
+    background-size: 666px 562px;
+    background-position: 647px -30px; 
 }
 
 .main__title {
-    margin: -104px 0px 31px 0px;
-    font: bold 54px/67px pt_serif, arial, helvetica, sans-serif;
+    margin: -87px 0px 31px 0px;
+    font: bold 58px/73px "PT Serif", arial, helvetica, sans-serif;
+    font-family: "PT Serif", Arial, Helvetica, Sans-serif;
 }
 
 .main__subtitle {
-    margin-bottom: 35px;
-    margin-left: 0px;
-    margin-right: 68px;
-    font: 17px/21px Roboto, arial, helvetica, sans-serif;
+    margin-bottom: 32px;
+    margin-left: -1px;
+    margin-right: 80px;
+    margin-top: 35px;
+    font: 19px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
     display: inline-block;
-    font: 14px/13px Roboto, arial, helvetica, sans-serif;
+    font: 15.2px/22.3px Roboto, arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
-    padding: 15px 25px;
+    padding: 15.1px 26.1px;
     text-decoration: none;
     /*border-radius: 4px;*/
     transition: opacity .5s;
     margin-left: 0px;
+    margin-top: 3px;
 }
 
 #circle {
@@ -244,8 +248,8 @@
     height: 7px;
     background: rgb(212, 223, 232);
     border-radius: 60px;
-    margin-top: 215px;
-    margin-left: 599px;
+    margin-top: 229px;
+    margin-left: 643px;
 }
 #circle1 {
     width: 7px;
@@ -253,7 +257,7 @@
     background: rgb(212, 223, 232);
     border-radius: 60px;
     margin-top: -7px;
-    margin-left: 621px;
+    margin-left: 654px;
 }
 #circle2 {
     width: 7px;
@@ -261,7 +265,7 @@
     background: rgb(212, 223, 232);
     border-radius: 60px;
     margin-top: -7px;
-    margin-left: 610px;
+    margin-left: 665px;
 }
 .footer {
     height:38px !important;
@@ -310,7 +314,7 @@ display: none;
     padding: 0px 0px 0px 0;
     margin: 0px -203px 0px 0px;
     background: top right no-repeat url(img/mainImg.svg);
-    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    font: 500 16px/19px pt_serif, arial, helvetica, sans-serif;
     background-size: 484px 413px;
     background-position: 389px -17px;
 }
@@ -324,15 +328,15 @@ display: none;
 
 .menu {
     display: flex;
-    margin-top: -29px;
+    margin-top: -30px;
     margin-left: 381px;
     margin-bottom: 139px;
 }
 
 .menu__item {
     position: relative;
-    margin-right: 12px;
-    margin-left: 12px;
+    margin-right: 11px;
+    margin-left: 13px;
     font: 500 13px/19px Roboto, arial, helvetica, sans-serif;
     color: #000;
     white-space: pre;
@@ -359,7 +363,7 @@ display: none;
 
 .main__subtitle {
     margin-bottom: 37px;
-    margin-left: 0px;
+    margin-left: -4px;
     margin-right: 68px;
     font: 17px/21px Roboto, arial, helvetica, sans-serif;
 }
@@ -368,7 +372,7 @@ display: none;
     font: 14px/12px Roboto, arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
-    padding: 15px 15px;
+    padding: 15px 14px;
     text-decoration: none;
     transition: opacity .5s;
     margin-left: 0px;
@@ -523,6 +527,7 @@ display: none;
     background-size: 400px 350px;
     background-position: 240px 1px;
     background: right no-repeat url(img/mainImg.svg); 
+    font-family: "PT Serif", Arial, Helvetica, Sans-serif;
 
 }    
 
@@ -766,12 +771,13 @@ display: none;
     margin-top: -30px;
     margin-left: -3px;
     padding: 275% 0 0;
-    background-size: 93%;
+    background-size: 75%;
     background-position: top center;
+    font-family: "PT Serif", Arial, Helvetica, Sans-serif;
  }
 
 .main__title {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
     margin-top: -6px;
     margin-left: 0px;
     font: bold 31px/39px pt_serif, arial, helvetica, sans-serif;
@@ -797,9 +803,10 @@ display: none;
 
 .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    padding: 14px 21px;
-    margin-left: -2px;
-    margin-top: -5px; 
+    padding: 13px 25px;
+    padding-top: 15px;
+    margin-left: -10px;
+    margin-top: -8px; 
 }
 
 /* ----------------- Мобильная навигация ----------------- */
@@ -821,7 +828,8 @@ display: none;
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
-  width: 383px;
+  width: 381px;
+  padding-right: 10px;
 }
 
 .menu__btn {
