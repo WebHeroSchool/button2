@@ -140,6 +140,59 @@
 .main__button:hover {
     opacity: .5;
 }
+/*----анимация для кнопки---*/
+
+
+.main__button:hover {
+  opacity: .5;
+ width: 50px;
+  height: 50px;
+  background: #ffd22e;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main__button:hover {
+background: green;
+  border-radius: 100%;
+  width: 100px;
+  height: 40px;
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+/*------конец анимации---*/
 
 
 .main__title-text_highlight {
@@ -242,6 +295,59 @@
     margin-left: 0px;
     margin-top: 3px;
 }
+/*----анимация для кнопки---*/
+
+
+.main__button:hover {
+  opacity: .5;
+ width: 50px;
+  height: 50px;
+  background: #ffd22e;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main__button:hover {
+background: green;
+  border-radius: 100%;
+  width: 100px;
+  height: 40px;
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+/*------конец анимации---*/
 
 #circle {
     width: 7px;
@@ -377,6 +483,59 @@ display: none;
     transition: opacity .5s;
     margin-left: 0px;
 }
+/*----анимация для кнопки---*/
+
+
+.main__button:hover {
+  opacity: .5;
+ width: 50px;
+  height: 50px;
+  background: #ffd22e;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main__button:hover {
+background: green;
+  border-radius: 100%;
+  width: 100px;
+  height: 40px;
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+/*------конец анимации---*/
 
 #circle {
     width: 7px;
