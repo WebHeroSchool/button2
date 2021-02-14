@@ -1,5 +1,5 @@
 .main-content__titel {
-    font-family: "PT Serif", Arial, Helvetica, Sans-serif; /*'Roboto', sans-serif*/
+    font-family: "PT Serif", Arial, Helvetica, Sans-serif;
 } 
 
 .wrapper {
@@ -17,9 +17,7 @@
 .logo {
     position: relative;
     left: 0px;
-    padding: 0px 0;
-    /*width: 140px;
-    height: 35px;*/
+    padding: 0px 0px;
     padding-left: 44px;
     font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 } 
@@ -140,59 +138,55 @@
 .main__button:hover {
     opacity: .5;
 }
-/*----анимация для кнопки---*/
-
 
 .main__button:hover {
-  opacity: .5;
- width: 50px;
-  height: 50px;
-  background: #ffd22e;
-  border-radius: 50%;
-  cursor: pointer;
-  text-align: center;
+    opacity: .5;
+    width: 50px;
+    height: 50px;
+    background: #ffd22e;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
 }
 
 .main__button:hover {
-background: green;
-  border-radius: 100%;
-  width: 100px;
-  height: 40px;
-  -webkit-animation: pulsing 2s infinite;
-  animation: pulsing 2s infinite;
+    background: green;
+    border-radius: 100%;
+    width: 100px;
+    height: 40px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
 }
 
 @-webkit-keyframes pulsing {
-  0% {
+    0% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5)
   }
-  50% {
+    50% {
     -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
   }
-  100% {
+    100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
   }
 }
 
 @keyframes pulsing {
-  0% {
+    0% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5)
   }
-  50% {
+    50% {
     -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
   }
-  100% {
+    100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
   }
 }
-
-/*------конец анимации---*/
 
 
 .main__title-text_highlight {
@@ -200,8 +194,6 @@ background: green;
     font-family: "PT Serif", Arial, Helvetica, Sans-serif;
 }
 
-
-/* Условие для экранов с шириной 1920px*/
 @media (max-width: 1920px) {
 
 .wrapper {
@@ -217,8 +209,6 @@ background: green;
     margin-top: -89px;
     left: 0px;
     padding: 51px 0;
-    /*width: 140px;
-    height: 35px;*/
     padding-left: 38px;
     font: bold 21px/31px pt_serif, arial, helvetica, sans-serif;
 } 
@@ -247,7 +237,6 @@ background: green;
 
 .menu {
     display: flex;
-    /* align-items: flex-end; */
     margin-top: -31px;
     margin-left: 768px;
     margin-bottom: 137px;
@@ -258,7 +247,7 @@ background: green;
     font: 500 15px/19px Roboto, arial, helvetica, sans-serif;
     color: #000;
     white-space: pre;
-    }
+}
     
 .main {
     padding: 123px 0px 0px 0;
@@ -290,64 +279,61 @@ background: green;
     background: #0056EC;
     padding: 15.1px 26.1px;
     text-decoration: none;
-    /*border-radius: 4px;*/
-    transition: opacity .5s;
+    transition: opacity.5s;
     margin-left: 0px;
     margin-top: 3px;
 }
-/*----анимация для кнопки---*/
 
 
 .main__button:hover {
-  opacity: .5;
- width: 50px;
-  height: 50px;
-  background: #ffd22e;
-  border-radius: 50%;
-  cursor: pointer;
-  text-align: center;
+    opacity: .5;
+    width: 50px;
+    height: 50px;
+    background: #ffd22e;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
 }
 
 .main__button:hover {
-background: green;
-  border-radius: 100%;
-  width: 100px;
-  height: 40px;
-  -webkit-animation: pulsing 2s infinite;
-  animation: pulsing 2s infinite;
+    background: green;
+    border-radius: 100%;
+    width: 100px;
+    height: 40px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
 }
 
 @-webkit-keyframes pulsing {
-  0% {
+    0% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5)
-  }
-  50% {
+}
+    50% {
     -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
-  }
-  100% {
+}
+    100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
   }
 }
 
 @keyframes pulsing {
-  0% {
+    0% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5)
   }
-  50% {
+    50% {
     -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
   }
-  100% {
+    100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
   }
 }
 
-/*------конец анимации---*/
 
 #circle {
     width: 7px;
@@ -380,20 +366,19 @@ background: green;
 }
 
 #menu__toggle {
-  display: none;
+    display: none;
 }
 
 #checkbox {
-display: none;
+    display: none;
 }
 
 .menu__box {
-display: none;
+    display: none;
 }
 
 }
 
-/* Условие для экранов с шириной 1366px*/
 @media (max-width: 1366px) {
 
  .wrapper {
@@ -404,14 +389,11 @@ display: none;
     margin-right: 0;
 }
 
-
 .logo {
     position: relative;
     margin-top: -89px;
     left: 0px;
     padding: 50px 0;
-    /*width: 140px;
-    height: 35px;*/
     padding-left: 44px;
     font: bold 23px/33px pt_serif, arial, helvetica, sans-serif;
     }
@@ -454,7 +436,6 @@ display: none;
     font-size:48px;
 }
 
-
 .main__title-text_highlight {
     margin: -115px 0px 36px -1px;
     font: bold 49px/61px pt_serif, arial, helvetica, sans-serif;
@@ -483,59 +464,56 @@ display: none;
     transition: opacity .5s;
     margin-left: 0px;
 }
-/*----анимация для кнопки---*/
-
 
 .main__button:hover {
-  opacity: .5;
- width: 50px;
-  height: 50px;
-  background: #ffd22e;
-  border-radius: 50%;
-  cursor: pointer;
-  text-align: center;
+    opacity: .5;
+    width: 50px;
+    height: 50px;
+    background: #ffd22e;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
 }
 
 .main__button:hover {
-background: green;
-  border-radius: 100%;
-  width: 100px;
-  height: 40px;
-  -webkit-animation: pulsing 2s infinite;
-  animation: pulsing 2s infinite;
+    background: green;
+    border-radius: 100%;
+    width: 100px;
+    height: 40px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
 }
 
 @-webkit-keyframes pulsing {
-  0% {
+    0% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5)
   }
-  50% {
+    50% {
     -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
   }
-  100% {
+    100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
   }
 }
 
 @keyframes pulsing {
-  0% {
+    0% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5)
   }
-  50% {
+    50% {
     -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
   }
-  100% {
+    100% {
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
   }
 }
 
-/*------конец анимации---*/
 
 #circle {
     width: 7px;
@@ -565,10 +543,9 @@ background: green;
 }
 
 .mobile-nav {
-        width: 320px;
-        right: -320px;
+    width: 320px;
+    right: -320px;
 }
-
 
 .mobile-nav--active {
     transform: translateX(-100%);
@@ -602,16 +579,11 @@ background: green;
     color: black;
 }
 
-/*.hamburger-menu {
-display: none;
-}*/
-
 .menu__box {
   display: none;
 }
 }
 
-/* Условие для экранов с шириной от 0 до 1024px*/
 
 @media (max-width: 1024px) { 
 
@@ -627,8 +599,6 @@ display: none;
     position: sticky;
     margin-top: 5px;
     padding: 50px 0;
-    /*width: 140px;
-    height: 35px;*/
     padding-left: 44px;
     font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 } 
@@ -665,10 +635,6 @@ display: none;
 .menu__item {
     position: relative;
     margin-right: 15px;
-    /*margin-left: 10px;
-    font: 500 13px/19px Roboto, arial, helvetica, sans-serif;
-    color: #000;
-    white-space: pre;*/
  } 
 
 .header {
@@ -759,12 +725,7 @@ display: none;
 
 }
 
-/* из видео к уроку 9*/
 @media (max-width: 768px) {
-
-/*.menu {
-    display: none;
- }*/
 
 .header {
     margin-bottom: 0px;
@@ -777,7 +738,6 @@ display: none;
     padding-left: 9px;
 }
 
-/* --------------- Mobile navigation button ----------- */
 .menu-icon {
     z-index: 19;
     position: relative;
@@ -787,14 +747,7 @@ display: none;
     cursor: pointer;
 }
 
-/*--- Условие для экранов с шириной от 0 до 768px---*/ 
 @media (max-width: 768px) {
-/*.menu-icon {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin: 13px 96px;
-}*/
 
 .logo__circle {
     position: absolute;
@@ -863,16 +816,8 @@ display: none;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
 
-/*.hamburger-menu {
-display: none;
 }
 
-.menu__box {
-  display: none;
-}*/
-}
-
-/* Условие для экранов с шириной от 0 до 375px */
 @media (max-width: 375px) {
 
 .wrapper {
@@ -895,9 +840,6 @@ display: none;
     position: sticky;
     overflow: hidden;
     padding: 32px;
-    /*width: 0px;
-    height: 35px;
-    padding-left: 190px;*/
     background: url('img/Group.svg')no-repeat;
     margin-top: 0px; 
     margin: 0px 16px;
@@ -968,100 +910,106 @@ display: none;
     margin-top: -8px; 
 }
 
-/* ----------------- Мобильная навигация ----------------- */
 #menu__toggle {
-  opacity: 0;
+    opacity: 0;
 }
 
 #menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 #menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
+    top: 0;
+    transform: rotate(0);
 }
 #menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
+    top: 0;
+    transform: rotate(90deg);
 }
 #menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-  width: 381px;
-  padding-right: 10px;
+    visibility: visible;
+    left: 0;
+    width: 381px;
+    padding-right: 10px;
 }
-
+.li:checked ~ .menu__box {
+    text-align: center;
+}
 .menu__btn {
-  display: flex;
-  align-items: center;
-  position: relative;
-  top: 10px;
-  left: 14px;
-  width: 25px;
-  height: 14px;
-  cursor: pointer;
-  z-index: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 14px;
+    width: 25px;
+    height: 14px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: #0056ec;;
-  transition-duration: .25s;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #0056ec;;
+    transition-duration: .25s;
 }
 .menu__btn > span::before {
-  content: '';
-  top: -8px;
+    content: '';
+    top: -8px;
 }
 .menu__btn > span::after {
-  content: '';
-  top: 8px;
+    content: '';
+    top: 8px;
 }
 
 .menu__box {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  left: -100%;
-  width: 300px;
-  height: 100%;
-  margin: 0px -15px;
-  padding: 180px 0px;
-  list-style: none;
-  background-color: white;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  transition-duration: .25s;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0px -15px;
+    padding: 180px 0px;
+    list-style: none;
+    background-color: white;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+    text-align: center;
 }
 
+li {
+    display: grid;
+    text-align: center;
+}
 .menu__item {
-  display: table-cell;
-  padding: 16px 5px 25px 25px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-  font-size: 31px;
-  font-weight: 600;
-  text-decoration: none;
-  transition-duration: .25s;
+    display: table-cell;
+    padding: 16px 5px 25px 25px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
 }
 
 .menu__item:hover {
-  background-color: #CFD8DC;
+    background-color: #CFD8DC;
 }
 
 #circle {
-display: none;
+    display: none;
 }
 
 #circle1  {
-display: none;
+    display: none;
 }
 
 #circle2 {
-display: none;
+    display: none;
 }
 }
